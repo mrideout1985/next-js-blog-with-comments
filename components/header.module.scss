@@ -1,0 +1,14 @@
+.h1 {
+	font-size: 5rem;
+	font-weight: 700;
+
+	.hoverunderline {
+		text-decoration: none;
+		color: black;
+
+		&:hover {
+			text-decoration: underline;
+			color: darkgoldenrod;
+		}
+	}
+}
