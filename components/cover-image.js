@@ -17,6 +17,7 @@ export default function CoverImage({ title, url, imageObject, slug }) {
 		// />
 
 		<img
+			className={styles.image}
 			src={imageBuilder(imageObject).width(1240).height(540).url()}
 			alt={`Cover image for ${title}`}
 		/>
