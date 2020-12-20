@@ -4,7 +4,7 @@ import styles from "./more-stories.module.scss";
 export default function MoreStories({ posts }) {
 	return (
 		<section className={styles.container}>
-			<h2>More Stories</h2>
+			<h2>More Stories...</h2>
 			<div className={styles.storiesgrid}>
 				{posts.map((post) => (
 					<PostPreview

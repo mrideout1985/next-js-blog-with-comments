@@ -26,7 +26,7 @@ export default function HeroPost({
 				<div>
 					<h3>
 						<Link as={`/posts/${slug}`} href="/posts/[slug]">
-							<a className="hover:underline">{title}</a>
+							<a>{title}</a>
 						</Link>
 					</h3>
 					<div>
