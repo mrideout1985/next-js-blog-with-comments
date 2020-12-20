@@ -1,4 +1,4 @@
-import "../styles/index.css";
+import "../styles/sass/main.scss";
 import ContextWrapper from "../context/ContextWrapper";
 import Layout from "../components/layout";
 import { Mainheader } from "../components/mainheader";

@@ -8,6 +8,13 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+:root {
+	--color-main: #ccdb86;
+	--color-secondary: #602080;
+
+	--color-a-hover: #bc49f6;
+}
+
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
@@ -38,7 +45,6 @@ main {
    */
 
 h1 {
-	font-size: 2em;
 	margin: 0.67em 0;
 }
 
