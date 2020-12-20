@@ -27,7 +27,8 @@ const Layout = styled.div`
 	}
 
 	h1,
-	h2 {
+	h2,
+	h3 {
 		color: ${(props) => (props.darkMode ? "#dce0cd" : "black")};
 	}
 `;
