@@ -19,10 +19,15 @@ const Layout = styled.div`
 	}
 
 	a {
-		color: ${(props) => (props.darkMode ? "#dce0cd" : "black")};
+		color: ${(props) => (props.darkMode ? "#67a030" : "black")};
+
+		&:hover {
+			color: ${(props) => (props.darkMode ? "#ccdb86" : "black")};
+		}
 	}
 
-	h1 {
+	h1,
+	h2 {
 		color: ${(props) => (props.darkMode ? "#dce0cd" : "black")};
 	}
 `;
