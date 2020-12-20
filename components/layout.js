@@ -31,6 +31,8 @@ const Layout = styled.div`
 	h3 {
 		color: ${(props) => (props.darkMode ? "#dce0cd" : "black")};
 	}
+
+	transition: all 0.25s ease-in;
 `;
 export default ({ children, preview }) => {
 	const { darkMode } = useContext(DarkModeContext);
