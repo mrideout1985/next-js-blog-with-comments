@@ -17,10 +17,9 @@ const Mainheader = () => {
 			<div class={styles["links"]}>
 				<a href="#">Portfolio</a>
 				<a href="#">More Posts</a>
-
-				<div class={styles["button"]}>
-					<ToggleButton />
-				</div>
+			</div>
+			<div class={styles["button"]}>
+				<ToggleButton />
 			</div>
 		</div>
 	);
