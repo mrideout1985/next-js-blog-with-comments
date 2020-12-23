@@ -2,7 +2,11 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+
 	.coverimage {
+		img {
+			width: 100%;
+		}
 	}
 
 	.postinfo {
