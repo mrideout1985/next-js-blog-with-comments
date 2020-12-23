@@ -1,7 +1,7 @@
 import "../styles/sass/main.scss";
 import ContextWrapper from "../context/ContextWrapper";
-import Layout from "../components/layout";
-import { Mainheader } from "../components/mainheader";
+import Layout from "../components/layout/layout";
+import { Mainheader } from "../components/mainheader/mainheader";
 
 function MyApp({ Component, pageProps }) {
 	return (

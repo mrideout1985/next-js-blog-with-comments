@@ -8,12 +8,14 @@
     "start:web": "next start",
     "build:sanity": "cd studio && sanity build ../public/studio -y && cd ..",
     "start:sanity": "cp .env ./studio/.env.development && cd studio && sanity start",
-    "postinstall": "lerna bootstrap"
+    "postinstall": "lerna bootstrap",
+    "generate-icons": "npx @svgr/cli -d components/icons/svg helpers/images/ --ext=js"
   },
   "dependencies": {
     "@sanity/block-content-to-react": "2.0.7",
     "@sanity/client": "1.149.18",
     "@sanity/image-url": "0.140.19",
+    "@svgr/webpack": "^5.5.0",
     "classnames": "2.2.6",
     "date-fns": "2.15.0",
     "next": "latest",
@@ -29,6 +31,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
     "@sanity/cli": "^2.0.5",
+    "@svgr/cli": "^5.5.0",
     "lerna": "^3.22.1",
     "postcss-preset-env": "^6.7.0"
   }

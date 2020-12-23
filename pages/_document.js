@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { Mainheader } from "../components/mainheader";
 
 export default class MyDocument extends Document {
 	render() {
