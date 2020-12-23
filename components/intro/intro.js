@@ -1,4 +1,4 @@
-import { CMS_NAME, CMS_URL } from "../lib/constants";
+import { CMS_NAME, CMS_URL } from "../../lib/constants";
 import styles from "./intro.module.scss";
 
 export default function Intro() {

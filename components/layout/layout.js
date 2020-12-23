@@ -1,10 +1,6 @@
-import Alert from "../components/alert";
-import Footer from "../components/footer";
-import Meta from "../components/meta";
-import styles from "./layout.module.scss";
 import { useContext } from "react";
 import styled from "styled-components";
-import { DarkModeContext } from "../context/DarkModeContext";
+import { DarkModeContext } from "../../context/DarkModeContext";
 
 const Layout = styled.div`
 	background-color: ${(props) => (props.darkMode ? "#202945" : "white")};

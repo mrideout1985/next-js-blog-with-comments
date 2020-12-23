@@ -1,4 +1,4 @@
-import markdownStyles from "./markdown-styles.module.css";
+import markdownStyles from "./markdown-styles.module.scss";
 import BlockContent from "@sanity/block-content-to-react";
 import styles from "./post-body.module.scss";
 

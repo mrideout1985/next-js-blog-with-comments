@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./header.module.scss";
-import ToggleButton from "./ToggleButton/toggleButton";
+import ToggleButton from "../ToggleButton/toggleButton";
 
 export default function Header() {
 	return (

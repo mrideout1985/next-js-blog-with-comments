@@ -1,4 +1,4 @@
-import Date from "./date";
+import Date from "../date/date";
 import styles from "./comments.module.scss";
 
 export default function Comments({ comments = [] }) {

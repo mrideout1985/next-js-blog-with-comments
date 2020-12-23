@@ -1,6 +1,6 @@
 import cn from "classnames";
 import Link from "next/link";
-import { imageBuilder } from "../lib/sanity";
+import { imageBuilder } from "../../lib/sanity";
 import styles from "./cover-image.module.scss";
 
 export default function CoverImage({ title, url, imageObject, slug }) {
