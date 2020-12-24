@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
 		<ContextWrapper>
 			<Layout>
 				<Mainheader />
-				<Component {...pageProps} />;
+				<Component {...pageProps} />
 			</Layout>
 		</ContextWrapper>
 	);
